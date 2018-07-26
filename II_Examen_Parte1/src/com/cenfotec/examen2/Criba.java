@@ -2,7 +2,6 @@ package com.cenfotec.examen2;
 
 public class Criba {
 	public int[] generaCriba(int tope){
-		int i,j;
 		if (tope >= 2){
 			
 			int dim = tope+1;
