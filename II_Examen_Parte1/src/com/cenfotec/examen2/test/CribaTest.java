@@ -11,7 +11,7 @@ import com.cenfotec.examen2.Criba;
 class CribaTest {
 	
 	@Test
-	public void testLengthOfCriba1() { // No hay numeros primos si mando 0 o 1
+	public void testLengthOfCriba1() { // No hay numeros primos si mando 0 o 1 
 		Criba c = new Criba();
 		assertEquals(0, c.generaCriba(0).length);
 		assertEquals(0, c.generaCriba(1).length);
